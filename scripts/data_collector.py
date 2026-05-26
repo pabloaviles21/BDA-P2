@@ -19,7 +19,7 @@ import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parents[1]
 LANDING_ZONE_DIR = BASE_DIR / "landing_zone"
 
 DATASETS = {

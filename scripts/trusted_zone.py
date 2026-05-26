@@ -14,6 +14,7 @@ import logging
 import sys
 from typing import Dict, List, Tuple
 from datetime import datetime
+from pathlib import Path
 
 import duckdb
 import pandas as pd
@@ -29,8 +30,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Database paths
-FORMATTED_DB_PATH = "formatted_zone.db"
-TRUSTED_DB_PATH = "trusted_zone.db"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+FORMATTED_DB_PATH = str(PROJECT_ROOT / "formatted_zone.db")
+TRUSTED_DB_PATH = str(PROJECT_ROOT / "trusted_zone.db")
 
 # Here we define the Denial Constraints for each dataset
 DENIAL_CONSTRAINTS = {

@@ -21,9 +21,13 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import expr
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parents[1]
 LANDING_ZONE_DIR = BASE_DIR / "landing_zone"
 DUCKDB_JAR_PATH = BASE_DIR / "duckdb.jar"
+FALLBACK_DUCKDB_JAR_PATHS = [
+    BASE_DIR.parent / "duckdb.jar",
+    BASE_DIR.parent / "duckdb_jdbc.jar",
+]
 
 DATASETS = {
     "uber_trips": {
@@ -214,6 +218,10 @@ def ensure_duckdb_driver():
     """
     if DUCKDB_JAR_PATH.exists():
         return DUCKDB_JAR_PATH
+
+    for fallback_path in FALLBACK_DUCKDB_JAR_PATHS:
+        if fallback_path.exists():
+            return fallback_path
 
     print("DuckDB JDBC driver")
     urllib.request.urlretrieve(

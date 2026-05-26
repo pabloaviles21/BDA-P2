@@ -1,0 +1,7 @@
+kaggle
+pyspark
+duckdb
+pandas
+pyarrow
+scikit-learn
+matplotlib
