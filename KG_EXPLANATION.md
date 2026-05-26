@@ -51,6 +51,8 @@ El KG define las siguientes clases:
 
 | Clase | Significado |
 | --- | --- |
+| `ex:Observation` | Superclase para observaciones medidas o agregadas. |
+| `ex:CountObservation` | Superclase para conteos semanticos diarios. |
 | `ex:Day` | Dia natural de 2016 usado como eje temporal comun. |
 | `ex:WeatherObservation` | Observacion meteorologica diaria. |
 | `ex:MobilityObservation` | Actividad diaria estimada de Uber. |
@@ -61,9 +63,16 @@ El KG define las siguientes clases:
 | `ex:FactorCount` | Conteo diario de apariciones de un factor. |
 | `ex:VehicleTypeCount` | Conteo diario de apariciones de un tipo de vehiculo. |
 
+Tambien se declaran jerarquias con `rdfs:subClassOf`:
+
+- `ex:WeatherObservation`, `ex:MobilityObservation`, `ex:SafetyObservation` y `ex:CountObservation` son subclases de `ex:Observation`.
+- `ex:FactorCount` y `ex:VehicleTypeCount` son subclases de `ex:CountObservation`.
+
 ## Relaciones principales
 
-| Predicado | Dominio aproximado | Rango aproximado | Uso |
+Las propiedades de objeto se declaran con `rdfs:domain` y `rdfs:range`, siguiendo la idea de RDFS vista en clase: el esquema permite inferir tipos de los sujetos y objetos que aparecen en los triples.
+
+| Predicado | `rdfs:domain` | `rdfs:range` | Uso |
 | --- | --- | --- | --- |
 | `ex:hasWeatherObservation` | `Day` | `WeatherObservation` | Conecta un dia con su clima. |
 | `ex:hasMobilityObservation` | `Day` | `MobilityObservation` | Conecta un dia con la estimacion de Uber. |
@@ -78,20 +87,25 @@ El KG define las siguientes clases:
 
 Los nodos contienen propiedades literales para que los pipelines analiticos puedan generar features directamente desde el grafo.
 
-Ejemplos:
+| Predicado | `rdfs:domain` | `rdfs:range` |
+| --- | --- | --- |
+| `ex:eventDate` | `Day` | `xsd:date` |
+| `ex:isWeekend` | `Day` | `xsd:boolean` |
+| `ex:maximumTemperature` | `WeatherObservation` | `xsd:double` |
+| `ex:minimumTemperature` | `WeatherObservation` | `xsd:double` |
+| `ex:averageTemperature` | `WeatherObservation` | `xsd:double` |
+| `ex:precipitation` | `WeatherObservation` | `xsd:double` |
+| `ex:snowFall` | `WeatherObservation` | `xsd:double` |
+| `ex:snowDepth` | `WeatherObservation` | `xsd:double` |
+| `ex:estimatedDispatchedTrips` | `MobilityObservation` | `xsd:double` |
+| `ex:estimatedUniqueVehicles` | `MobilityObservation` | `xsd:double` |
+| `ex:activeBases` | `MobilityObservation` | `xsd:integer` |
+| `ex:collisions` | `SafetyObservation` | `xsd:integer` |
+| `ex:personsInjured` | `SafetyObservation` | `xsd:integer` |
+| `ex:personsKilled` | `SafetyObservation` | `xsd:integer` |
+| `ex:occurrences` | `CountObservation` | `xsd:integer` |
 
-- `ex:eventDate`
-- `ex:isWeekend`
-- `ex:averageTemperature`
-- `ex:precipitation`
-- `ex:snowFall`
-- `ex:estimatedDispatchedTrips`
-- `ex:estimatedUniqueVehicles`
-- `ex:activeBases`
-- `ex:collisions`
-- `ex:personsInjured`
-- `ex:personsKilled`
-- `ex:occurrences`
+`ex:occurrences` usa como dominio `ex:CountObservation` en vez de declarar dos dominios separados (`ex:FactorCount` y `ex:VehicleTypeCount`). Esto evita una inferencia no deseada de RDFS: si una propiedad tiene varios dominios, cada sujeto que use esa propiedad se infiere como instancia de todos ellos.
 
 ## Tablas generadas en DuckDB
 
@@ -112,6 +126,7 @@ Ejemplos:
 | `kg_nodes` | Nodos del KG: identificador, tipo y etiqueta. |
 | `kg_edges` | Relaciones entre nodos. |
 | `kg_literals` | Propiedades literales de los nodos. |
+| `kg_schema_properties` | Esquema RDFS materializado: clases, jerarquia, dominios y rangos. |
 | `kg_metadata` | Metricas de cobertura del KG generado. |
 
 ## Cobertura observada con los datos disponibles
@@ -128,6 +143,7 @@ Al probar el pipeline con la Trusted Zone de la P1 se obtuvo:
 | Nodos KG | 13.904 |
 | Relaciones KG | 26.254 |
 | Literales KG | 20.936 |
+| Terminos de esquema RDFS | 40 |
 
 Esto confirma que hay suficiente estructura para una P2 razonable, aunque la integracion queda limitada por la granularidad de las fuentes. La parte mas fuerte del KG esta en accidentes, porque es donde existen entidades semanticas mas ricas: boroughs, tipos de vehiculo y factores.
 
