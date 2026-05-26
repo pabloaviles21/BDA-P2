@@ -5,3 +5,4 @@ pandas
 pyarrow
 scikit-learn
 matplotlib
+rdflib

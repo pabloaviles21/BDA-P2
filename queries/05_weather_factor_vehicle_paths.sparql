@@ -1,0 +1,34 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Example graph paths linking the same day to adverse weather, a contributing
+# factor and a vehicle type. This is useful for explaining KG exploitation:
+# the result is not one source table, but a path through connected entities.
+
+SELECT ?date ?avgTemperature ?precipitation ?factorLabel ?factorOccurrences
+       ?vehicleTypeLabel ?vehicleOccurrences
+WHERE {
+  ?day ex:eventDate ?date ;
+       ex:hasWeatherObservation ?weather ;
+       ex:hasFactorCount ?factorCount ;
+       ex:hasVehicleTypeCount ?vehicleCount .
+
+  ?weather ex:averageTemperature ?avgTemperature ;
+           ex:precipitation ?precipitation .
+
+  ?factorCount ex:aboutFactor ?factor ;
+               ex:occurrences ?factorOccurrences .
+
+  ?vehicleCount ex:aboutVehicleType ?vehicleType ;
+                ex:occurrences ?vehicleOccurrences .
+
+  ?factor rdfs:label ?factorLabel .
+  ?vehicleType rdfs:label ?vehicleTypeLabel .
+
+  FILTER(xsd:double(?precipitation) > 0.5)
+  FILTER(xsd:integer(?factorOccurrences) >= 20)
+  FILTER(xsd:integer(?vehicleOccurrences) >= 30)
+}
+ORDER BY DESC(xsd:double(?precipitation)) DESC(xsd:integer(?factorOccurrences))
+LIMIT 20

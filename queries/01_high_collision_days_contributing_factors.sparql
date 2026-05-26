@@ -1,0 +1,32 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Factors that appear most often on borough-days with many collisions.
+# This follows graph paths Day -> SafetyObservation -> Borough and
+# Day -> FactorCount -> ContributingFactor.
+
+SELECT ?boroughLabel ?factorLabel
+       (COUNT(DISTINCT ?day) AS ?highCollisionDays)
+       (SUM(xsd:integer(?collisions)) AS ?totalBoroughCollisions)
+       (SUM(xsd:integer(?factorOccurrences)) AS ?totalFactorOccurrences)
+WHERE {
+  ?day ex:hasSafetyObservation ?safety ;
+       ex:hasFactorCount ?factorCount .
+
+  ?safety ex:observedInBorough ?borough ;
+          ex:collisions ?collisions .
+
+  ?factorCount ex:aboutFactor ?factor ;
+               ex:occurrences ?factorOccurrences .
+
+  ?borough rdfs:label ?boroughLabel .
+  ?factor rdfs:label ?factorLabel .
+
+  FILTER(?borough != <https://example.org/bda/nyc-mobility-safety/borough/unknown>)
+  FILTER(xsd:integer(?collisions) >= 120)
+}
+GROUP BY ?boroughLabel ?factorLabel
+HAVING(COUNT(DISTINCT ?day) >= 5)
+ORDER BY DESC(?totalFactorOccurrences) DESC(?totalBoroughCollisions)
+LIMIT 15

@@ -1,0 +1,36 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Vehicle types most represented on adverse-weather days.
+# Adverse weather is defined in the graph using weather observations connected
+# to each Day, then joined to vehicle-type count nodes through the same Day.
+
+SELECT ?vehicleTypeLabel
+       (COUNT(DISTINCT ?day) AS ?adverseWeatherDays)
+       (SUM(xsd:integer(?vehicleOccurrences)) AS ?totalVehicleOccurrences)
+       (AVG(xsd:double(?precipitation)) AS ?avgPrecipitation)
+       (AVG(xsd:double(?snowFall)) AS ?avgSnowFall)
+       (AVG(xsd:double(?snowDepth)) AS ?avgSnowDepth)
+WHERE {
+  ?day ex:hasWeatherObservation ?weather ;
+       ex:hasVehicleTypeCount ?vehicleCount .
+
+  ?weather ex:precipitation ?precipitation ;
+           ex:snowFall ?snowFall ;
+           ex:snowDepth ?snowDepth .
+
+  ?vehicleCount ex:aboutVehicleType ?vehicleType ;
+                ex:occurrences ?vehicleOccurrences .
+
+  ?vehicleType rdfs:label ?vehicleTypeLabel .
+
+  FILTER(
+    xsd:double(?precipitation) > 0.20 ||
+    xsd:double(?snowFall) > 0.0 ||
+    xsd:double(?snowDepth) > 0.0
+  )
+}
+GROUP BY ?vehicleTypeLabel
+ORDER BY DESC(?totalVehicleOccurrences)
+LIMIT 15

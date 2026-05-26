@@ -1,0 +1,37 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Borough collision profile on days with high estimated Uber activity.
+# The query computes the average mobility over the graph, keeps days above
+# that threshold, and follows Day -> SafetyObservation -> Borough.
+
+SELECT ?boroughLabel
+       (COUNT(DISTINCT ?day) AS ?highMobilityDays)
+       (AVG(xsd:double(?estimatedTrips)) AS ?avgEstimatedTrips)
+       (SUM(xsd:integer(?collisions)) AS ?totalCollisions)
+       (AVG(xsd:integer(?collisions)) AS ?avgCollisionsPerDay)
+WHERE {
+  {
+    SELECT (AVG(xsd:double(?allTrips)) AS ?avgTripsThreshold)
+    WHERE {
+      ?anyDay ex:hasMobilityObservation ?anyMobility .
+      ?anyMobility ex:estimatedDispatchedTrips ?allTrips .
+    }
+  }
+
+  ?day ex:hasMobilityObservation ?mobility ;
+       ex:hasSafetyObservation ?safety .
+
+  ?mobility ex:estimatedDispatchedTrips ?estimatedTrips .
+  ?safety ex:observedInBorough ?borough ;
+          ex:collisions ?collisions .
+
+  ?borough rdfs:label ?boroughLabel .
+
+  FILTER(?borough != <https://example.org/bda/nyc-mobility-safety/borough/unknown>)
+  FILTER(xsd:double(?estimatedTrips) > ?avgTripsThreshold)
+}
+GROUP BY ?boroughLabel
+ORDER BY DESC(?avgCollisionsPerDay)
+LIMIT 10

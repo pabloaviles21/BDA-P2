@@ -1,0 +1,22 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?day ?date ?avgTemperature ?estimatedTrips ?borough ?collisions
+WHERE {
+  ?day rdf:type ex:Day ;
+       ex:eventDate ?date ;
+       ex:hasWeatherObservation ?weather ;
+       ex:hasMobilityObservation ?mobility ;
+       ex:hasSafetyObservation ?safety .
+
+  ?weather ex:averageTemperature ?avgTemperature .
+  ?mobility ex:estimatedDispatchedTrips ?estimatedTrips .
+  ?safety ex:observedInBorough ?borough ;
+          ex:collisions ?collisions .
+
+  FILTER(xsd:integer(?collisions) > 0)
+  FILTER(?borough != <https://example.org/bda/nyc-mobility-safety/borough/unknown>)
+}
+ORDER BY DESC(xsd:integer(?collisions))
+LIMIT 10

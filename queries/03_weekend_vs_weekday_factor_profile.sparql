@@ -1,0 +1,33 @@
+PREFIX ex: <https://example.org/bda/nyc-mobility-safety/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Compares contributing-factor profiles between weekends and weekdays.
+# This uses the Day node as the semantic hub: calendar semantics are attached
+# to the day, while factors are reached through FactorCount nodes.
+
+SELECT ?factorLabel
+       ?weekendOccurrences
+       ?weekdayOccurrences
+       (?weekendOccurrences / 104 AS ?avgWeekendOccurrencesPerCalendarDay)
+       (?weekdayOccurrences / 262 AS ?avgWeekdayOccurrencesPerCalendarDay)
+       ((?weekendOccurrences / 104) - (?weekdayOccurrences / 262) AS ?weekendMinusWeekdayAvg)
+WHERE {
+  {
+    SELECT ?factorLabel
+           (SUM(IF(xsd:boolean(?isWeekend), xsd:integer(?occurrences), 0)) AS ?weekendOccurrences)
+           (SUM(IF(xsd:boolean(?isWeekend), 0, xsd:integer(?occurrences))) AS ?weekdayOccurrences)
+    WHERE {
+      ?day ex:isWeekend ?isWeekend ;
+           ex:hasFactorCount ?factorCount .
+
+      ?factorCount ex:aboutFactor ?factor ;
+                   ex:occurrences ?occurrences .
+
+      ?factor rdfs:label ?factorLabel .
+    }
+    GROUP BY ?factorLabel
+  }
+}
+ORDER BY DESC(ABS((?weekendOccurrences / 104) - (?weekdayOccurrences / 262)))
+LIMIT 20
