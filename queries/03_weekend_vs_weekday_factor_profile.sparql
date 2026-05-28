@@ -9,10 +9,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?factorLabel
        ?weekendOccurrences
        ?weekdayOccurrences
-       (?weekendOccurrences / 104 AS ?avgWeekendOccurrencesPerCalendarDay)
-       (?weekdayOccurrences / 262 AS ?avgWeekdayOccurrencesPerCalendarDay)
-       ((?weekendOccurrences / 104) - (?weekdayOccurrences / 262) AS ?weekendMinusWeekdayAvg)
+       ?weekendDays
+       ?weekdayDays
+       (?weekendOccurrences / ?weekendDays AS ?avgWeekendOccurrencesPerCalendarDay)
+       (?weekdayOccurrences / ?weekdayDays AS ?avgWeekdayOccurrencesPerCalendarDay)
+       ((?weekendOccurrences / ?weekendDays) - (?weekdayOccurrences / ?weekdayDays) AS ?weekendMinusWeekdayAvg)
 WHERE {
+  {
+    SELECT (SUM(IF(xsd:boolean(?isWeekend), 1, 0)) AS ?weekendDays)
+           (SUM(IF(xsd:boolean(?isWeekend), 0, 1)) AS ?weekdayDays)
+    WHERE {
+      ?day ex:isWeekend ?isWeekend .
+    }
+  }
+
   {
     SELECT ?factorLabel
            (SUM(IF(xsd:boolean(?isWeekend), xsd:integer(?occurrences), 0)) AS ?weekendOccurrences)
@@ -29,5 +39,5 @@ WHERE {
     GROUP BY ?factorLabel
   }
 }
-ORDER BY DESC(ABS((?weekendOccurrences / 104) - (?weekdayOccurrences / 262)))
+ORDER BY DESC(ABS((?weekendOccurrences / ?weekendDays) - (?weekdayOccurrences / ?weekdayDays)))
 LIMIT 20
