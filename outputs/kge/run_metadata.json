@@ -1,0 +1,13 @@
+{
+  "task": "Day-to-ContributingFactor link prediction",
+  "target_relation": "hasLikelyContributingFactor",
+  "best_run_id": "RotatE_dim64_lr0.01_ep25_neg16",
+  "best_model": "RotatE",
+  "split_counts": {
+    "context_triples": 18174,
+    "target_triples": 3685,
+    "train_target_triples": 2580,
+    "validation_target_triples": 368,
+    "test_target_triples": 737
+  }
+}

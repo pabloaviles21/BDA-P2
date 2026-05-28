@@ -6,3 +6,5 @@ pyarrow
 scikit-learn
 matplotlib
 rdflib
+torch
+pykeen

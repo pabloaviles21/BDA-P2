@@ -1,3 +1,5 @@
 .venv/
+.pystow/
 __pycache__/
 *.py[cod]
+outputs/kge/models/

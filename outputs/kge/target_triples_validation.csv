@@ -1,0 +1,369 @@
+head,relation,tail,event_date,factor_label,occurrences
+day/2016-04-01,hasLikelyContributingFactor,factor/backing-unsafely,2016-04-01,BACKING UNSAFELY,48
+day/2016-10-30,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-10-30,DRIVER INATTENTION/DISTRACTION,162
+day/2016-09-13,hasLikelyContributingFactor,factor/driver-inexperience,2016-09-13,DRIVER INEXPERIENCE,21
+day/2016-04-09,hasLikelyContributingFactor,factor/turning-improperly,2016-04-09,TURNING IMPROPERLY,21
+day/2016-04-23,hasLikelyContributingFactor,factor/driver-inexperience,2016-04-23,DRIVER INEXPERIENCE,15
+day/2016-01-13,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-01-13,FAILURE TO YIELD RIGHT-OF-WAY,53
+day/2016-01-26,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-01-26,FATIGUED/DROWSY,66
+day/2016-03-20,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-03-20,FATIGUED/DROWSY,57
+day/2016-03-30,hasLikelyContributingFactor,factor/other-vehicular,2016-03-30,OTHER VEHICULAR,18
+day/2016-04-09,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-04-09,VIEW OBSTRUCTED/LIMITED,5
+day/2016-04-14,hasLikelyContributingFactor,factor/outside-car-distraction,2016-04-14,OUTSIDE CAR DISTRACTION,8
+day/2016-04-20,hasLikelyContributingFactor,factor/backing-unsafely,2016-04-20,BACKING UNSAFELY,30
+day/2016-11-22,hasLikelyContributingFactor,factor/other-vehicular,2016-11-22,OTHER VEHICULAR,51
+day/2016-01-16,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-01-16,DRIVER INATTENTION/DISTRACTION,113
+day/2016-01-20,hasLikelyContributingFactor,factor/prescription-medication,2016-01-20,PRESCRIPTION MEDICATION,18
+day/2016-02-23,hasLikelyContributingFactor,factor/driver-inexperience,2016-02-23,DRIVER INEXPERIENCE,13
+day/2016-03-10,hasLikelyContributingFactor,factor/driver-inexperience,2016-03-10,DRIVER INEXPERIENCE,12
+day/2016-03-23,hasLikelyContributingFactor,factor/passenger-distraction,2016-03-23,PASSENGER DISTRACTION,11
+day/2016-10-10,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-10,UNSAFE SPEED,21
+day/2016-03-12,hasLikelyContributingFactor,factor/driver-inexperience,2016-03-12,DRIVER INEXPERIENCE,17
+day/2016-03-13,hasLikelyContributingFactor,factor/passenger-distraction,2016-03-13,PASSENGER DISTRACTION,7
+day/2016-10-06,hasLikelyContributingFactor,factor/turning-improperly,2016-10-06,TURNING IMPROPERLY,31
+day/2016-12-02,hasLikelyContributingFactor,factor/passenger-distraction,2016-12-02,PASSENGER DISTRACTION,5
+day/2016-01-03,hasLikelyContributingFactor,factor/alcohol-involvement,2016-01-03,ALCOHOL INVOLVEMENT,7
+day/2016-02-01,hasLikelyContributingFactor,factor/passenger-distraction,2016-02-01,PASSENGER DISTRACTION,7
+day/2016-03-09,hasLikelyContributingFactor,factor/alcohol-involvement,2016-03-09,ALCOHOL INVOLVEMENT,5
+day/2016-12-24,hasLikelyContributingFactor,factor/following-too-closely,2016-12-24,FOLLOWING TOO CLOSELY,58
+day/2016-04-13,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-04-13,FATIGUED/DROWSY,135
+day/2016-04-08,hasLikelyContributingFactor,factor/driver-inexperience,2016-04-08,DRIVER INEXPERIENCE,27
+day/2016-03-27,hasLikelyContributingFactor,factor/lost-consciousness,2016-03-27,LOST CONSCIOUSNESS,37
+day/2016-11-08,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-11-08,DRIVER INATTENTION/DISTRACTION,191
+day/2016-11-14,hasLikelyContributingFactor,factor/unsafe-speed,2016-11-14,UNSAFE SPEED,13
+day/2016-12-06,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-06,FAILURE TO YIELD RIGHT-OF-WAY,57
+day/2016-12-14,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-12-14,TRAFFIC CONTROL DISREGARDED,11
+day/2016-03-18,hasLikelyContributingFactor,factor/other-vehicular,2016-03-18,OTHER VEHICULAR,16
+day/2016-09-20,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-09-20,TRAFFIC CONTROL DISREGARDED,15
+day/2016-02-29,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-02-29,TRAFFIC CONTROL DISREGARDED,13
+day/2016-09-26,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-09-26,TRAFFIC CONTROL DISREGARDED,11
+day/2016-10-11,hasLikelyContributingFactor,factor/passenger-distraction,2016-10-11,PASSENGER DISTRACTION,5
+day/2016-11-02,hasLikelyContributingFactor,factor/glare,2016-11-02,GLARE,6
+day/2016-11-04,hasLikelyContributingFactor,factor/oversized-vehicle,2016-11-04,OVERSIZED VEHICLE,9
+day/2016-11-14,hasLikelyContributingFactor,factor/obstruction-debris,2016-11-14,OBSTRUCTION/DEBRIS,5
+day/2016-11-18,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-11-18,VIEW OBSTRUCTED/LIMITED,8
+day/2016-01-05,hasLikelyContributingFactor,factor/backing-unsafely,2016-01-05,BACKING UNSAFELY,24
+day/2016-02-28,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-28,FATIGUED/DROWSY,55
+day/2016-09-29,hasLikelyContributingFactor,factor/alcohol-involvement,2016-09-29,ALCOHOL INVOLVEMENT,5
+day/2016-10-15,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-15,VIEW OBSTRUCTED/LIMITED,6
+day/2016-11-27,hasLikelyContributingFactor,factor/turning-improperly,2016-11-27,TURNING IMPROPERLY,13
+day/2016-01-11,hasLikelyContributingFactor,factor/pavement-slippery,2016-01-11,PAVEMENT SLIPPERY,9
+day/2016-09-02,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-09-02,DRIVER INATTENTION/DISTRACTION,8
+day/2016-03-30,hasLikelyContributingFactor,factor/following-too-closely,2016-03-30,FOLLOWING TOO CLOSELY,11
+day/2016-03-19,hasLikelyContributingFactor,factor/driver-inexperience,2016-03-19,DRIVER INEXPERIENCE,13
+day/2016-03-14,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-14,TRAFFIC CONTROL DISREGARDED,14
+day/2016-09-13,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-09-13,VIEW OBSTRUCTED/LIMITED,7
+day/2016-09-30,hasLikelyContributingFactor,factor/pavement-slippery,2016-09-30,PAVEMENT SLIPPERY,40
+day/2016-10-06,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-10-06,TRAFFIC CONTROL DISREGARDED,14
+day/2016-10-28,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-10-28,UNSAFE LANE CHANGING,38
+day/2016-11-06,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-11-06,TRAFFIC CONTROL DISREGARDED,19
+day/2016-11-30,hasLikelyContributingFactor,factor/alcohol-involvement,2016-11-30,ALCOHOL INVOLVEMENT,9
+day/2016-12-10,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-10,FAILURE TO YIELD RIGHT-OF-WAY,50
+day/2016-12-17,hasLikelyContributingFactor,factor/alcohol-involvement,2016-12-17,ALCOHOL INVOLVEMENT,14
+day/2016-01-15,hasLikelyContributingFactor,factor/prescription-medication,2016-01-15,PRESCRIPTION MEDICATION,24
+day/2016-02-19,hasLikelyContributingFactor,factor/turning-improperly,2016-02-19,TURNING IMPROPERLY,19
+day/2016-02-23,hasLikelyContributingFactor,factor/lost-consciousness,2016-02-23,LOST CONSCIOUSNESS,22
+day/2016-03-11,hasLikelyContributingFactor,factor/other-vehicular,2016-03-11,OTHER VEHICULAR,42
+day/2016-12-18,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-18,FAILURE TO YIELD RIGHT-OF-WAY,34
+day/2016-03-12,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-03-12,VIEW OBSTRUCTED/LIMITED,9
+day/2016-03-22,hasLikelyContributingFactor,factor/other-vehicular,2016-03-22,OTHER VEHICULAR,14
+day/2016-10-21,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-21,VIEW OBSTRUCTED/LIMITED,7
+day/2016-12-16,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-12-16,TRAFFIC CONTROL DISREGARDED,10
+day/2016-01-02,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-01-02,FATIGUED/DROWSY,31
+day/2016-03-19,hasLikelyContributingFactor,factor/alcohol-involvement,2016-03-19,ALCOHOL INVOLVEMENT,27
+day/2016-11-19,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-11-19,VIEW OBSTRUCTED/LIMITED,5
+day/2016-03-25,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-03-25,DRIVER INATTENTION/DISTRACTION,199
+day/2016-04-15,hasLikelyContributingFactor,factor/failure-to-keep-right,2016-04-15,FAILURE TO KEEP RIGHT,5
+day/2016-04-12,hasLikelyContributingFactor,factor/turning-improperly,2016-04-12,TURNING IMPROPERLY,34
+day/2016-11-19,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-11-19,PASSING OR LANE USAGE IMPROPER,27
+day/2016-12-05,hasLikelyContributingFactor,factor/oversized-vehicle,2016-12-05,OVERSIZED VEHICLE,12
+day/2016-01-03,hasLikelyContributingFactor,factor/lost-consciousness,2016-01-03,LOST CONSCIOUSNESS,12
+day/2016-02-03,hasLikelyContributingFactor,factor/lost-consciousness,2016-02-03,LOST CONSCIOUSNESS,16
+day/2016-02-20,hasLikelyContributingFactor,factor/other-vehicular,2016-02-20,OTHER VEHICULAR,34
+day/2016-09-12,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-12,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,7
+day/2016-09-15,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-15,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,8
+day/2016-09-18,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-09-18,AGGRESSIVE DRIVING/ROAD RAGE,5
+day/2016-10-05,hasLikelyContributingFactor,factor/oversized-vehicle,2016-10-05,OVERSIZED VEHICLE,8
+day/2016-11-29,hasLikelyContributingFactor,factor/driver-inexperience,2016-11-29,DRIVER INEXPERIENCE,9
+day/2016-12-27,hasLikelyContributingFactor,factor/driver-inexperience,2016-12-27,DRIVER INEXPERIENCE,6
+day/2016-03-25,hasLikelyContributingFactor,factor/outside-car-distraction,2016-03-25,OUTSIDE CAR DISTRACTION,8
+day/2016-03-28,hasLikelyContributingFactor,factor/oversized-vehicle,2016-03-28,OVERSIZED VEHICLE,5
+day/2016-03-05,hasLikelyContributingFactor,factor/backing-unsafely,2016-03-05,BACKING UNSAFELY,30
+day/2016-01-26,hasLikelyContributingFactor,factor/obstruction-debris,2016-01-26,OBSTRUCTION/DEBRIS,8
+day/2016-11-15,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-11-15,TRAFFIC CONTROL DISREGARDED,9
+day/2016-04-14,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-04-14,PASSING OR LANE USAGE IMPROPER,5
+day/2016-03-25,hasLikelyContributingFactor,factor/alcohol-involvement,2016-03-25,ALCOHOL INVOLVEMENT,17
+day/2016-10-10,hasLikelyContributingFactor,factor/following-too-closely,2016-10-10,FOLLOWING TOO CLOSELY,57
+day/2016-11-04,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-11-04,DRIVER INATTENTION/DISTRACTION,217
+day/2016-11-13,hasLikelyContributingFactor,factor/following-too-closely,2016-11-13,FOLLOWING TOO CLOSELY,62
+day/2016-03-22,hasLikelyContributingFactor,factor/obstruction-debris,2016-03-22,OBSTRUCTION/DEBRIS,6
+day/2016-04-08,hasLikelyContributingFactor,factor/prescription-medication,2016-04-08,PRESCRIPTION MEDICATION,28
+day/2016-04-11,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-04-11,VIEW OBSTRUCTED/LIMITED,6
+day/2016-09-29,hasLikelyContributingFactor,factor/driver-inexperience,2016-09-29,DRIVER INEXPERIENCE,20
+day/2016-11-13,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-11-13,FAILURE TO YIELD RIGHT-OF-WAY,37
+day/2016-01-06,hasLikelyContributingFactor,factor/lost-consciousness,2016-01-06,LOST CONSCIOUSNESS,26
+day/2016-01-15,hasLikelyContributingFactor,factor/oversized-vehicle,2016-01-15,OVERSIZED VEHICLE,6
+day/2016-02-04,hasLikelyContributingFactor,factor/driver-inexperience,2016-02-04,DRIVER INEXPERIENCE,8
+day/2016-02-25,hasLikelyContributingFactor,factor/turning-improperly,2016-02-25,TURNING IMPROPERLY,20
+day/2016-01-31,hasLikelyContributingFactor,factor/turning-improperly,2016-01-31,TURNING IMPROPERLY,13
+day/2016-10-14,hasLikelyContributingFactor,factor/alcohol-involvement,2016-10-14,ALCOHOL INVOLVEMENT,5
+day/2016-11-11,hasLikelyContributingFactor,factor/alcohol-involvement,2016-11-11,ALCOHOL INVOLVEMENT,16
+day/2016-12-20,hasLikelyContributingFactor,factor/unsafe-speed,2016-12-20,UNSAFE SPEED,7
+day/2016-10-23,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-23,DRIVER INEXPERIENCE,9
+day/2016-12-19,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-12-19,DRIVER INATTENTION/DISTRACTION,213
+day/2016-04-25,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-04-25,DRIVER INATTENTION/DISTRACTION,159
+day/2016-11-06,hasLikelyContributingFactor,factor/other-vehicular,2016-11-06,OTHER VEHICULAR,26
+day/2016-12-10,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-12-10,PASSING OR LANE USAGE IMPROPER,31
+day/2016-02-07,hasLikelyContributingFactor,factor/outside-car-distraction,2016-02-07,OUTSIDE CAR DISTRACTION,10
+day/2016-03-22,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-22,TRAFFIC CONTROL DISREGARDED,14
+day/2016-03-15,hasLikelyContributingFactor,factor/prescription-medication,2016-03-15,PRESCRIPTION MEDICATION,27
+day/2016-11-06,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-06,BACKING UNSAFELY,21
+day/2016-01-04,hasLikelyContributingFactor,factor/physical-disability,2016-01-04,PHYSICAL DISABILITY,11
+day/2016-02-20,hasLikelyContributingFactor,factor/prescription-medication,2016-02-20,PRESCRIPTION MEDICATION,16
+day/2016-04-02,hasLikelyContributingFactor,factor/illness,2016-04-02,ILLNESS,6
+day/2016-04-14,hasLikelyContributingFactor,factor/glare,2016-04-14,GLARE,13
+day/2016-08-04,hasLikelyContributingFactor,factor/alcohol-involvement,2016-08-04,ALCOHOL INVOLVEMENT,7
+day/2016-10-29,hasLikelyContributingFactor,factor/following-too-closely,2016-10-29,FOLLOWING TOO CLOSELY,63
+day/2016-11-13,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-11-13,AGGRESSIVE DRIVING/ROAD RAGE,10
+day/2016-01-19,hasLikelyContributingFactor,factor/turning-improperly,2016-01-19,TURNING IMPROPERLY,23
+day/2016-03-03,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-03,TRAFFIC CONTROL DISREGARDED,7
+day/2016-09-10,hasLikelyContributingFactor,factor/driver-inexperience,2016-09-10,DRIVER INEXPERIENCE,17
+day/2016-12-21,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-21,FAILURE TO YIELD RIGHT-OF-WAY,42
+day/2016-02-16,hasLikelyContributingFactor,factor/prescription-medication,2016-02-16,PRESCRIPTION MEDICATION,6
+day/2016-10-18,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-18,VIEW OBSTRUCTED/LIMITED,5
+day/2016-11-10,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-10,BACKING UNSAFELY,21
+day/2016-01-17,hasLikelyContributingFactor,factor/alcohol-involvement,2016-01-17,ALCOHOL INVOLVEMENT,13
+day/2016-09-13,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-13,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,6
+day/2016-04-07,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-04-07,FATIGUED/DROWSY,138
+day/2016-04-22,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-04-22,TRAFFIC CONTROL DISREGARDED,24
+day/2016-02-17,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-17,FATIGUED/DROWSY,52
+day/2016-12-14,hasLikelyContributingFactor,factor/other-vehicular,2016-12-14,OTHER VEHICULAR,36
+day/2016-03-05,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-03-05,DRIVER INATTENTION/DISTRACTION,134
+day/2016-03-24,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-24,TRAFFIC CONTROL DISREGARDED,11
+day/2016-03-29,hasLikelyContributingFactor,factor/obstruction-debris,2016-03-29,OBSTRUCTION/DEBRIS,7
+day/2016-04-06,hasLikelyContributingFactor,factor/backing-unsafely,2016-04-06,BACKING UNSAFELY,26
+day/2016-09-09,hasLikelyContributingFactor,factor/backing-unsafely,2016-09-09,BACKING UNSAFELY,21
+day/2016-10-11,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-10-11,UNSAFE LANE CHANGING,30
+day/2016-10-23,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-10-23,REACTION TO OTHER UNINVOLVED VEHICLE,18
+day/2016-10-26,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-26,DRIVER INEXPERIENCE,19
+day/2016-11-05,hasLikelyContributingFactor,factor/turning-improperly,2016-11-05,TURNING IMPROPERLY,15
+day/2016-11-16,hasLikelyContributingFactor,factor/passenger-distraction,2016-11-16,PASSENGER DISTRACTION,6
+day/2016-12-04,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-12-04,TRAFFIC CONTROL DISREGARDED,15
+day/2016-12-06,hasLikelyContributingFactor,factor/turning-improperly,2016-12-06,TURNING IMPROPERLY,20
+day/2016-12-17,hasLikelyContributingFactor,factor/unsafe-speed,2016-12-17,UNSAFE SPEED,24
+day/2016-01-05,hasLikelyContributingFactor,factor/driver-inexperience,2016-01-05,DRIVER INEXPERIENCE,9
+day/2016-02-06,hasLikelyContributingFactor,factor/driver-inexperience,2016-02-06,DRIVER INEXPERIENCE,13
+day/2016-10-07,hasLikelyContributingFactor,factor/backing-unsafely,2016-10-07,BACKING UNSAFELY,31
+day/2016-10-19,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-19,DRIVER INEXPERIENCE,22
+day/2016-11-09,hasLikelyContributingFactor,factor/driver-inexperience,2016-11-09,DRIVER INEXPERIENCE,6
+day/2016-11-30,hasLikelyContributingFactor,factor/unsafe-speed,2016-11-30,UNSAFE SPEED,14
+day/2016-12-20,hasLikelyContributingFactor,factor/oversized-vehicle,2016-12-20,OVERSIZED VEHICLE,8
+day/2016-03-11,hasLikelyContributingFactor,factor/physical-disability,2016-03-11,PHYSICAL DISABILITY,11
+day/2016-09-12,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-09-12,UNSAFE LANE CHANGING,26
+day/2016-01-01,hasLikelyContributingFactor,factor/alcohol-involvement,2016-01-01,ALCOHOL INVOLVEMENT,13
+day/2016-01-04,hasLikelyContributingFactor,factor/driver-inexperience,2016-01-04,DRIVER INEXPERIENCE,5
+day/2016-04-01,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-04-01,DRIVER INATTENTION/DISTRACTION,316
+day/2016-04-20,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-04-20,DRIVER INATTENTION/DISTRACTION,324
+day/2016-11-26,hasLikelyContributingFactor,factor/following-too-closely,2016-11-26,FOLLOWING TOO CLOSELY,55
+day/2016-09-28,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-09-28,DRIVER INATTENTION/DISTRACTION,184
+day/2016-10-22,hasLikelyContributingFactor,factor/following-too-closely,2016-10-22,FOLLOWING TOO CLOSELY,60
+day/2016-12-19,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-12-19,PASSING OR LANE USAGE IMPROPER,47
+day/2016-01-01,hasLikelyContributingFactor,factor/lost-consciousness,2016-01-01,LOST CONSCIOUSNESS,19
+day/2016-01-24,hasLikelyContributingFactor,factor/pavement-slippery,2016-01-24,PAVEMENT SLIPPERY,106
+day/2016-02-22,hasLikelyContributingFactor,factor/prescription-medication,2016-02-22,PRESCRIPTION MEDICATION,25
+day/2016-03-02,hasLikelyContributingFactor,factor/backing-unsafely,2016-03-02,BACKING UNSAFELY,28
+day/2016-03-23,hasLikelyContributingFactor,factor/lost-consciousness,2016-03-23,LOST CONSCIOUSNESS,34
+day/2016-01-02,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-01-02,TRAFFIC CONTROL DISREGARDED,10
+day/2016-02-27,hasLikelyContributingFactor,factor/physical-disability,2016-02-27,PHYSICAL DISABILITY,8
+day/2016-10-31,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-10-31,TRAFFIC CONTROL DISREGARDED,12
+day/2016-01-29,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-01-29,FATIGUED/DROWSY,46
+day/2016-03-25,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-03-25,FATIGUED/DROWSY,97
+day/2016-03-21,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-03-21,AGGRESSIVE DRIVING/ROAD RAGE,6
+day/2016-12-29,hasLikelyContributingFactor,factor/following-too-closely,2016-12-29,FOLLOWING TOO CLOSELY,64
+day/2016-11-04,hasLikelyContributingFactor,factor/following-too-closely,2016-11-04,FOLLOWING TOO CLOSELY,90
+day/2016-02-17,hasLikelyContributingFactor,factor/other-vehicular,2016-02-17,OTHER VEHICULAR,38
+day/2016-04-20,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-04-20,TRAFFIC CONTROL DISREGARDED,15
+day/2016-12-07,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-12-07,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,7
+day/2016-12-30,hasLikelyContributingFactor,factor/driver-inexperience,2016-12-30,DRIVER INEXPERIENCE,21
+day/2016-01-09,hasLikelyContributingFactor,factor/turning-improperly,2016-01-09,TURNING IMPROPERLY,24
+day/2016-03-22,hasLikelyContributingFactor,factor/lost-consciousness,2016-03-22,LOST CONSCIOUSNESS,48
+day/2016-04-24,hasLikelyContributingFactor,factor/alcohol-involvement,2016-04-24,ALCOHOL INVOLVEMENT,8
+day/2016-10-02,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-02,DRIVER INEXPERIENCE,11
+day/2016-10-18,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-18,DRIVER INEXPERIENCE,13
+day/2016-11-07,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-07,BACKING UNSAFELY,32
+day/2016-01-18,hasLikelyContributingFactor,factor/backing-unsafely,2016-01-18,BACKING UNSAFELY,26
+day/2016-02-02,hasLikelyContributingFactor,factor/lost-consciousness,2016-02-02,LOST CONSCIOUSNESS,22
+day/2016-03-31,hasLikelyContributingFactor,factor/oversized-vehicle,2016-03-31,OVERSIZED VEHICLE,6
+day/2016-12-19,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-12-19,UNSAFE LANE CHANGING,28
+day/2016-10-03,hasLikelyContributingFactor,factor/alcohol-involvement,2016-10-03,ALCOHOL INVOLVEMENT,5
+day/2016-01-10,hasLikelyContributingFactor,factor/obstruction-debris,2016-01-10,OBSTRUCTION/DEBRIS,5
+day/2016-11-06,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-11-06,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,6
+day/2016-04-10,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-04-10,TRAFFIC CONTROL DISREGARDED,22
+day/2016-10-01,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-01,UNSAFE SPEED,14
+day/2016-01-03,hasLikelyContributingFactor,factor/other-vehicular,2016-01-03,OTHER VEHICULAR,28
+day/2016-02-03,hasLikelyContributingFactor,factor/other-vehicular,2016-02-03,OTHER VEHICULAR,33
+day/2016-01-27,hasLikelyContributingFactor,factor/other-vehicular,2016-01-27,OTHER VEHICULAR,47
+day/2016-11-14,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-11-14,PASSING OR LANE USAGE IMPROPER,41
+day/2016-10-11,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-11,DRIVER INEXPERIENCE,12
+day/2016-11-01,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-11-01,AGGRESSIVE DRIVING/ROAD RAGE,6
+day/2016-01-24,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-01-24,DRIVER INATTENTION/DISTRACTION,63
+day/2016-08-05,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-08-05,DRIVER INATTENTION/DISTRACTION,21
+day/2016-04-02,hasLikelyContributingFactor,factor/driver-inexperience,2016-04-02,DRIVER INEXPERIENCE,10
+day/2016-11-01,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-11-01,UNSAFE LANE CHANGING,29
+day/2016-12-25,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-12-25,UNSAFE LANE CHANGING,13
+day/2016-09-26,hasLikelyContributingFactor,factor/glare,2016-09-26,GLARE,8
+day/2016-02-08,hasLikelyContributingFactor,factor/backing-unsafely,2016-02-08,BACKING UNSAFELY,18
+day/2016-09-30,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-30,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,12
+day/2016-10-17,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-10-17,REACTION TO OTHER UNINVOLVED VEHICLE,12
+day/2016-04-17,hasLikelyContributingFactor,factor/alcohol-involvement,2016-04-17,ALCOHOL INVOLVEMENT,43
+day/2016-12-19,hasLikelyContributingFactor,factor/following-too-closely,2016-12-19,FOLLOWING TOO CLOSELY,90
+day/2016-03-28,hasLikelyContributingFactor,factor/turning-improperly,2016-03-28,TURNING IMPROPERLY,46
+day/2016-01-14,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-01-14,FATIGUED/DROWSY,52
+day/2016-09-21,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-09-21,REACTION TO OTHER UNINVOLVED VEHICLE,26
+day/2016-03-13,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-03-13,FAILURE TO YIELD RIGHT-OF-WAY,28
+day/2016-03-17,hasLikelyContributingFactor,factor/alcohol-involvement,2016-03-17,ALCOHOL INVOLVEMENT,7
+day/2016-10-02,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-02,UNSAFE SPEED,15
+day/2016-10-27,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-27,DRIVER INEXPERIENCE,14
+day/2016-11-12,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-12,BACKING UNSAFELY,27
+day/2016-12-02,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-02,FAILURE TO YIELD RIGHT-OF-WAY,48
+day/2016-02-12,hasLikelyContributingFactor,factor/lost-consciousness,2016-02-12,LOST CONSCIOUSNESS,32
+day/2016-03-10,hasLikelyContributingFactor,factor/outside-car-distraction,2016-03-10,OUTSIDE CAR DISTRACTION,9
+day/2016-01-02,hasLikelyContributingFactor,factor/backing-unsafely,2016-01-02,BACKING UNSAFELY,16
+day/2016-10-06,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-10-06,AGGRESSIVE DRIVING/ROAD RAGE,5
+day/2016-11-16,hasLikelyContributingFactor,factor/oversized-vehicle,2016-11-16,OVERSIZED VEHICLE,5
+day/2016-10-04,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-10-04,TRAFFIC CONTROL DISREGARDED,6
+day/2016-11-10,hasLikelyContributingFactor,factor/aggressive-driving-road-rage,2016-11-10,AGGRESSIVE DRIVING/ROAD RAGE,5
+day/2016-04-10,hasLikelyContributingFactor,factor/backing-unsafely,2016-04-10,BACKING UNSAFELY,46
+day/2016-09-14,hasLikelyContributingFactor,factor/following-too-closely,2016-09-14,FOLLOWING TOO CLOSELY,111
+day/2016-09-16,hasLikelyContributingFactor,factor/driver-inexperience,2016-09-16,DRIVER INEXPERIENCE,17
+day/2016-12-17,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-12-17,PASSING OR LANE USAGE IMPROPER,24
+day/2016-02-20,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-02-20,FAILURE TO YIELD RIGHT-OF-WAY,47
+day/2016-04-04,hasLikelyContributingFactor,factor/turning-improperly,2016-04-04,TURNING IMPROPERLY,30
+day/2016-04-14,hasLikelyContributingFactor,factor/physical-disability,2016-04-14,PHYSICAL DISABILITY,16
+day/2016-04-17,hasLikelyContributingFactor,factor/outside-car-distraction,2016-04-17,OUTSIDE CAR DISTRACTION,5
+day/2016-09-22,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-09-22,FAILURE TO YIELD RIGHT-OF-WAY,52
+day/2016-09-24,hasLikelyContributingFactor,factor/driver-inexperience,2016-09-24,DRIVER INEXPERIENCE,9
+day/2016-10-02,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-10-02,REACTION TO OTHER UNINVOLVED VEHICLE,8
+day/2016-10-08,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-10-08,UNSAFE LANE CHANGING,33
+day/2016-12-17,hasLikelyContributingFactor,factor/turning-improperly,2016-12-17,TURNING IMPROPERLY,20
+day/2016-02-07,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-07,FATIGUED/DROWSY,23
+day/2016-02-15,hasLikelyContributingFactor,factor/backing-unsafely,2016-02-15,BACKING UNSAFELY,14
+day/2016-03-10,hasLikelyContributingFactor,factor/prescription-medication,2016-03-10,PRESCRIPTION MEDICATION,29
+day/2016-04-11,hasLikelyContributingFactor,factor/oversized-vehicle,2016-04-11,OVERSIZED VEHICLE,8
+day/2016-11-11,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-11-11,UNSAFE LANE CHANGING,36
+day/2016-11-17,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-17,BACKING UNSAFELY,45
+day/2016-12-27,hasLikelyContributingFactor,factor/turning-improperly,2016-12-27,TURNING IMPROPERLY,27
+day/2016-03-17,hasLikelyContributingFactor,factor/outside-car-distraction,2016-03-17,OUTSIDE CAR DISTRACTION,10
+day/2016-11-02,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-02,BACKING UNSAFELY,42
+day/2016-12-17,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-12-17,VIEW OBSTRUCTED/LIMITED,5
+day/2016-11-15,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-11-15,VIEW OBSTRUCTED/LIMITED,12
+day/2016-03-08,hasLikelyContributingFactor,factor/brakes-defective,2016-03-08,BRAKES DEFECTIVE,5
+day/2016-04-22,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-04-22,DRIVER INATTENTION/DISTRACTION,316
+day/2016-11-15,hasLikelyContributingFactor,factor/other-vehicular,2016-11-15,OTHER VEHICULAR,39
+day/2016-02-25,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-25,FATIGUED/DROWSY,70
+day/2016-01-26,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-01-26,DRIVER INATTENTION/DISTRACTION,127
+day/2016-03-23,hasLikelyContributingFactor,factor/oversized-vehicle,2016-03-23,OVERSIZED VEHICLE,9
+day/2016-04-10,hasLikelyContributingFactor,factor/lost-consciousness,2016-04-10,LOST CONSCIOUSNESS,36
+day/2016-10-14,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-14,UNSAFE SPEED,16
+day/2016-10-20,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-10-20,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,11
+day/2016-12-11,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-11,FAILURE TO YIELD RIGHT-OF-WAY,46
+day/2016-12-12,hasLikelyContributingFactor,factor/driver-inexperience,2016-12-12,DRIVER INEXPERIENCE,17
+day/2016-01-05,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-01-05,DRIVER INATTENTION/DISTRACTION,117
+day/2016-02-02,hasLikelyContributingFactor,factor/pavement-slippery,2016-02-02,PAVEMENT SLIPPERY,5
+day/2016-03-08,hasLikelyContributingFactor,factor/oversized-vehicle,2016-03-08,OVERSIZED VEHICLE,9
+day/2016-09-24,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-24,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,6
+day/2016-11-17,hasLikelyContributingFactor,factor/turning-improperly,2016-11-17,TURNING IMPROPERLY,20
+day/2016-12-03,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-12-03,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,10
+day/2016-12-03,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-03,FAILURE TO YIELD RIGHT-OF-WAY,48
+day/2016-12-29,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-12-29,REACTION TO OTHER UNINVOLVED VEHICLE,8
+day/2016-09-15,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-09-15,VIEW OBSTRUCTED/LIMITED,8
+day/2016-10-03,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-03,VIEW OBSTRUCTED/LIMITED,5
+day/2016-01-03,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-01-03,FAILURE TO YIELD RIGHT-OF-WAY,34
+day/2016-02-02,hasLikelyContributingFactor,factor/alcohol-involvement,2016-02-02,ALCOHOL INVOLVEMENT,7
+day/2016-10-11,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-11,VIEW OBSTRUCTED/LIMITED,5
+day/2016-02-06,hasLikelyContributingFactor,factor/outside-car-distraction,2016-02-06,OUTSIDE CAR DISTRACTION,12
+day/2016-09-11,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-09-11,PASSING OR LANE USAGE IMPROPER,29
+day/2016-04-01,hasLikelyContributingFactor,factor/physical-disability,2016-04-01,PHYSICAL DISABILITY,19
+day/2016-03-19,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-03-19,FATIGUED/DROWSY,79
+day/2016-04-15,hasLikelyContributingFactor,factor/outside-car-distraction,2016-04-15,OUTSIDE CAR DISTRACTION,15
+day/2016-03-16,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-16,TRAFFIC CONTROL DISREGARDED,9
+day/2016-04-08,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-04-08,FAILURE TO YIELD RIGHT-OF-WAY,97
+day/2016-09-23,hasLikelyContributingFactor,factor/unsafe-speed,2016-09-23,UNSAFE SPEED,17
+day/2016-10-12,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-10-12,FAILURE TO YIELD RIGHT-OF-WAY,43
+day/2016-10-14,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-10-14,FAILURE TO YIELD RIGHT-OF-WAY,51
+day/2016-10-19,hasLikelyContributingFactor,factor/turning-improperly,2016-10-19,TURNING IMPROPERLY,24
+day/2016-12-04,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-12-04,VIEW OBSTRUCTED/LIMITED,8
+day/2016-02-15,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-02-15,DRIVER INATTENTION/DISTRACTION,45
+day/2016-02-18,hasLikelyContributingFactor,factor/prescription-medication,2016-02-18,PRESCRIPTION MEDICATION,20
+day/2016-03-07,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-03-07,FATIGUED/DROWSY,58
+day/2016-04-24,hasLikelyContributingFactor,factor/outside-car-distraction,2016-04-24,OUTSIDE CAR DISTRACTION,11
+day/2016-09-19,hasLikelyContributingFactor,factor/turning-improperly,2016-09-19,TURNING IMPROPERLY,19
+day/2016-10-07,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-10-07,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,8
+day/2016-11-09,hasLikelyContributingFactor,factor/turning-improperly,2016-11-09,TURNING IMPROPERLY,19
+day/2016-12-04,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-12-04,PASSING OR LANE USAGE IMPROPER,21
+day/2016-10-20,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-20,UNSAFE SPEED,15
+day/2016-10-26,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-10-26,VIEW OBSTRUCTED/LIMITED,6
+day/2016-01-30,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-01-30,TRAFFIC CONTROL DISREGARDED,15
+day/2016-02-14,hasLikelyContributingFactor,factor/lost-consciousness,2016-02-14,LOST CONSCIOUSNESS,14
+day/2016-10-31,hasLikelyContributingFactor,factor/alcohol-involvement,2016-10-31,ALCOHOL INVOLVEMENT,5
+day/2016-12-30,hasLikelyContributingFactor,factor/oversized-vehicle,2016-12-30,OVERSIZED VEHICLE,5
+day/2016-04-26,hasLikelyContributingFactor,factor/physical-disability,2016-04-26,PHYSICAL DISABILITY,18
+day/2016-11-28,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-11-28,UNSAFE LANE CHANGING,29
+day/2016-10-19,hasLikelyContributingFactor,factor/following-too-closely,2016-10-19,FOLLOWING TOO CLOSELY,69
+day/2016-02-22,hasLikelyContributingFactor,factor/other-vehicular,2016-02-22,OTHER VEHICULAR,60
+day/2016-02-11,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-11,FATIGUED/DROWSY,54
+day/2016-09-16,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-09-16,DRIVER INATTENTION/DISTRACTION,245
+day/2016-03-24,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-03-24,FAILURE TO YIELD RIGHT-OF-WAY,82
+day/2016-04-03,hasLikelyContributingFactor,factor/driver-inexperience,2016-04-03,DRIVER INEXPERIENCE,17
+day/2016-10-28,hasLikelyContributingFactor,factor/pavement-slippery,2016-10-28,PAVEMENT SLIPPERY,7
+day/2016-11-13,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-11-13,REACTION TO OTHER UNINVOLVED VEHICLE,17
+day/2016-04-08,hasLikelyContributingFactor,factor/lost-consciousness,2016-04-08,LOST CONSCIOUSNESS,72
+day/2016-09-11,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-09-11,FAILURE TO YIELD RIGHT-OF-WAY,30
+day/2016-10-03,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-03,UNSAFE SPEED,7
+day/2016-10-08,hasLikelyContributingFactor,factor/passing-or-lane-usage-improper,2016-10-08,PASSING OR LANE USAGE IMPROPER,22
+day/2016-10-11,hasLikelyContributingFactor,factor/unsafe-speed,2016-10-11,UNSAFE SPEED,11
+day/2016-10-26,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-10-26,FAILURE TO YIELD RIGHT-OF-WAY,43
+day/2016-11-21,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-11-21,VIEW OBSTRUCTED/LIMITED,11
+day/2016-01-04,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-01-04,FAILURE TO YIELD RIGHT-OF-WAY,28
+day/2016-01-16,hasLikelyContributingFactor,factor/pavement-slippery,2016-01-16,PAVEMENT SLIPPERY,12
+day/2016-02-19,hasLikelyContributingFactor,factor/physical-disability,2016-02-19,PHYSICAL DISABILITY,10
+day/2016-03-01,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-03-01,FAILURE TO YIELD RIGHT-OF-WAY,34
+day/2016-04-07,hasLikelyContributingFactor,factor/oversized-vehicle,2016-04-07,OVERSIZED VEHICLE,6
+day/2016-10-15,hasLikelyContributingFactor,factor/driver-inexperience,2016-10-15,DRIVER INEXPERIENCE,15
+day/2016-01-10,hasLikelyContributingFactor,factor/prescription-medication,2016-01-10,PRESCRIPTION MEDICATION,12
+day/2016-11-18,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-11-18,TRAFFIC CONTROL DISREGARDED,17
+day/2016-02-03,hasLikelyContributingFactor,factor/outside-car-distraction,2016-02-03,OUTSIDE CAR DISTRACTION,5
+day/2016-09-25,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-09-25,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,6
+day/2016-10-19,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-10-19,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,5
+day/2016-02-19,hasLikelyContributingFactor,factor/oversized-vehicle,2016-02-19,OVERSIZED VEHICLE,5
+day/2016-03-22,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-03-22,DRIVER INATTENTION/DISTRACTION,249
+day/2016-03-04,hasLikelyContributingFactor,factor/pavement-slippery,2016-03-04,PAVEMENT SLIPPERY,27
+day/2016-03-21,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-03-21,TRAFFIC CONTROL DISREGARDED,23
+day/2016-04-18,hasLikelyContributingFactor,factor/other-vehicular,2016-04-18,OTHER VEHICULAR,31
+day/2016-02-11,hasLikelyContributingFactor,factor/driver-inattention-distraction,2016-02-11,DRIVER INATTENTION/DISTRACTION,144
+day/2016-09-19,hasLikelyContributingFactor,factor/pavement-slippery,2016-09-19,PAVEMENT SLIPPERY,27
+day/2016-10-14,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-10-14,REACTION TO OTHER UNINVOLVED VEHICLE,12
+day/2016-11-26,hasLikelyContributingFactor,factor/other-vehicular,2016-11-26,OTHER VEHICULAR,30
+day/2016-02-08,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-02-08,FATIGUED/DROWSY,44
+day/2016-09-26,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-09-26,REACTION TO OTHER UNINVOLVED VEHICLE,12
+day/2016-09-28,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-09-28,UNSAFE LANE CHANGING,35
+day/2016-12-02,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-12-02,TRAFFIC CONTROL DISREGARDED,9
+day/2016-12-31,hasLikelyContributingFactor,factor/failure-to-yield-right-of-way,2016-12-31,FAILURE TO YIELD RIGHT-OF-WAY,32
+day/2016-01-20,hasLikelyContributingFactor,factor/fatigued-drowsy,2016-01-20,FATIGUED/DROWSY,48
+day/2016-03-22,hasLikelyContributingFactor,factor/outside-car-distraction,2016-03-22,OUTSIDE CAR DISTRACTION,9
+day/2016-04-25,hasLikelyContributingFactor,factor/driver-inexperience,2016-04-25,DRIVER INEXPERIENCE,15
+day/2016-11-12,hasLikelyContributingFactor,factor/turning-improperly,2016-11-12,TURNING IMPROPERLY,20
+day/2016-11-26,hasLikelyContributingFactor,factor/backing-unsafely,2016-11-26,BACKING UNSAFELY,29
+day/2016-12-10,hasLikelyContributingFactor,factor/unsafe-lane-changing,2016-12-10,UNSAFE LANE CHANGING,33
+day/2016-02-04,hasLikelyContributingFactor,factor/backing-unsafely,2016-02-04,BACKING UNSAFELY,29
+day/2016-02-07,hasLikelyContributingFactor,factor/driver-inexperience,2016-02-07,DRIVER INEXPERIENCE,5
+day/2016-11-03,hasLikelyContributingFactor,factor/pedestrian-bicyclist-other-pedestrian-error-confusion,2016-11-03,PEDESTRIAN/BICYCLIST/OTHER PEDESTRIAN ERROR/CONFUSION,7
+day/2016-11-21,hasLikelyContributingFactor,factor/reaction-to-other-uninvolved-vehicle,2016-11-21,REACTION TO OTHER UNINVOLVED VEHICLE,7
+day/2016-02-16,hasLikelyContributingFactor,factor/physical-disability,2016-02-16,PHYSICAL DISABILITY,9
+day/2016-11-14,hasLikelyContributingFactor,factor/oversized-vehicle,2016-11-14,OVERSIZED VEHICLE,7
+day/2016-12-04,hasLikelyContributingFactor,factor/alcohol-involvement,2016-12-04,ALCOHOL INVOLVEMENT,7
+day/2016-12-19,hasLikelyContributingFactor,factor/traffic-control-disregarded,2016-12-19,TRAFFIC CONTROL DISREGARDED,6
+day/2016-12-21,hasLikelyContributingFactor,factor/passenger-distraction,2016-12-21,PASSENGER DISTRACTION,5
+day/2016-01-06,hasLikelyContributingFactor,factor/following-too-closely,2016-01-06,FOLLOWING TOO CLOSELY,7
+day/2016-03-03,hasLikelyContributingFactor,factor/outside-car-distraction,2016-03-03,OUTSIDE CAR DISTRACTION,11
+day/2016-09-27,hasLikelyContributingFactor,factor/view-obstructed-limited,2016-09-27,VIEW OBSTRUCTED/LIMITED,5
