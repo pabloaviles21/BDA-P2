@@ -1,0 +1,10 @@
+kaggle
+pyspark
+duckdb
+pandas
+pyarrow
+scikit-learn
+matplotlib
+rdflib
+torch
+pykeen
